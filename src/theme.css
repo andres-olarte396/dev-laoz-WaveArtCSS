@@ -33,6 +33,8 @@
   /* Texto secundario */
   --color-text-muted: #9ca3af;
   /* Texto desactivado */
+  --color-text-accent: #0b84f5;
+  /* Texto desactivado */
 
   /* Bordes */
   --color-border: #d1d5db;
@@ -68,7 +70,7 @@
 
     --color-text-primary: #f9fafb;
     /* Texto principal claro */
-    --color-text-secondary: #d1d5db;
+    --color-text-secondary: #9ea1a3;
     /* Texto secundario claro */
     --color-text-muted: #6b7280;
     /* Texto desactivado claro */
@@ -86,6 +88,11 @@
   --font-family-primary: 'Inter', sans-serif;
   /* Fuente principal */
   --font-family-secondary: 'Roboto', sans-serif;
+
+  /* Fuente secundaria */
+  --font-size-xxs: 10px;
+  /* Fuente secundaria */
+  --font-size-xs: 12px;
   /* Fuente secundaria */
   --font-size-small: 14px;
   /* Texto pequeño */

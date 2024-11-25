@@ -1,8 +1,5 @@
 /* --- BASE.CSS --- */
 
-/* Importar Variables */
-@import url('variables.css');
-
 /* Estilos generales */
 body {
   margin: 0;
