@@ -87,7 +87,6 @@
   /* Fuente principal */
   --font-family-secondary: 'Roboto', sans-serif;
   /* Fuente secundaria */
-
   --font-size-small: 14px;
   /* Texto pequeño */
   --font-size-base: 16px;
@@ -98,7 +97,6 @@
   /* Títulos */
   --font-size-heading: 32px;
   /* Encabezados principales */
-
   --line-height-base: 1.5;
   /* Altura de línea predeterminada */
   --line-height-heading: 1.2;
@@ -122,7 +120,6 @@
   /* Ancho de bordes predeterminado */
   --border-radius: 8px;
   /* Bordes redondeados */
-
   --border-radius-sm: 4px;
   /* Bordes redondeados pequeños */
   --border-radius-lg: 16px;
@@ -133,7 +130,6 @@
 :root {
   --viewport-width: 100vw;
   --viewport-height: 100vh;
-
   /* Nuevas Unidades (CSS Logical Units) */
   --dynamic-margin: env(safe-area-inset-left);
   --dynamic-padding: env(safe-area-inset-right);
