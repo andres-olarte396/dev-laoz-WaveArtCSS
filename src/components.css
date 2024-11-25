@@ -91,6 +91,11 @@ label {
     margin: var(--spacing-xs);
 }
 
+span {
+    font-size: var(--font-size-base);
+    color: var(--color-text-muted);
+}
+
 /* Tarjetas */
 .card {
     background-color: var(--color-surface);

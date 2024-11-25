@@ -42,9 +42,9 @@
 
 ```plaintext
 ├── 📂 assets/               # Recursos estáticos
-│   ├──  images/           # Imágenes generales del proyecto
-│   ├── icons/            # Íconos SVG, PNG, etc.
-│   └── favicons/         # Favicons en diferentes tamaños
+│   ├── 📂 images/           # Imágenes generales del proyecto
+│   ├── 📂 icons/            # Íconos SVG, PNG, etc.
+│   └── 📂 favicons/         # Favicons en diferentes tamaños
 ├── 📂 docs/
 │   ├── 📰 setup.md
 │   ├── 📰 theming.md
