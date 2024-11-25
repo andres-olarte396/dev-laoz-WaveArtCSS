@@ -1,0 +1,49 @@
+# Node.js
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+logs/
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+/dist/
+/build/
+/out/
+/public/
+
+# Archivos temporales
+*.swp
+*.bak
+*.tmp
+
+# Archivos de pruebas y cobertura
+/coverage/
+/test-results/
+*.lcov
+
+# Archivos de dependencias de package-lock.json (si no se usan)
+/package-lock.json
+/yarn.lock
+
+# Archivos de configuración de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos generados por el sistema de control de versiones
+.git/
+
+# Archivos de previsualización
+*.map
