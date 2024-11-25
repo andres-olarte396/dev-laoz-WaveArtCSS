@@ -187,10 +187,22 @@ form {
     padding: var(--spacing-md);
 }
 
+form fieldset {
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: calc(var(--spacing-md)*2);
+}
+
 form label {
-    margin-top: var(--font-size-base)*2;
+    margin-top: calc(var(--font-size-base)*3);
     font-size: var(--font-size-base);
     color: var(--color-text-primary);
+}
+
+form input, form textarea, form select {
+    margin-bottom: calc(var(--spacing-xs)*3);
+    width: 100%;
+    transition: border-color 0.3s var(--animation-ease), background-color 0.3s var(--animation-ease);
 }
 
 /* Contenedores */
