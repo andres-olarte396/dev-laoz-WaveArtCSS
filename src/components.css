@@ -194,13 +194,25 @@ form fieldset {
 }
 
 form label {
-    margin-top: calc(var(--font-size-base)*3);
+    margin-top: var(--spacing-md) !important;
+    margin-bottom: 0 !important;
     font-size: var(--font-size-base);
     color: var(--color-text-primary);
 }
 
-form input, form textarea, form select {
-    margin-bottom: calc(var(--spacing-xs)*3);
+form span {
+    font-size: var(--spacing-md);
+    color: var(--color-text-muted);
+}
+
+form textarea {
+    resize: vertical;
+    min-height: calc(var(--spacing-md)*10);
+}
+
+form input, form select {
+    margin-top: 0 !important;
+    margin-bottom: var(--spacing-md);
     width: 100%;
     transition: border-color 0.3s var(--animation-ease), background-color 0.3s var(--animation-ease);
 }
