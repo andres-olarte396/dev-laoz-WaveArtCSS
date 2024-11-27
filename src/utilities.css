@@ -1,30 +1,70 @@
 /* --- UTILITIES.CSS --- */
 
 /* Espaciado */
-.m-0 { margin: 0; }
-.p-0 { padding: 0; }
-.mt-md { margin-top: var(--spacing-md); }
-.mb-lg { margin-bottom: var(--spacing-lg); }
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.mt-md {
+  margin-top: var(--spacing-md);
+}
+
+.mb-lg {
+  margin-bottom: var(--spacing-lg);
+}
 
 /* Margen y espaciado */
-.mt-sm { margin-top: 0.5rem; }
-.mt-lg { margin-top: 2rem; }
+.mt-sm {
+  margin-top: 0.5rem;
+}
+
+.mt-lg {
+  margin-top: 2rem;
+}
 
 /* Ancho y altura */
-.w-full { width: 100% !important; }
-.h-auto { height: auto !important; }
-.h-full { height: 100% !important; }
+.w-full {
+  width: 100% !important;
+}
+
+.h-auto {
+  height: auto !important;
+}
+
+.h-full {
+  height: 100% !important;
+}
 
 /* Posicionamiento */
-.position-fixed { position: fixed !important; }
-.position-relative { position: relative !important; }
-.position-absolute { position: absolute !important; }
+.position-fixed {
+  position: fixed !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
 
 /* Flex helpers */
-.flex { display: flex !important; }
-.flex-center { align-items: center; justify-content: center !important; }
-.flex-column { flex-direction: column !important; }
+.flex {
+  display: flex !important;
+}
 
+.flex-center {
+  align-items: center;
+  justify-content: center !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
 
 /* Flexbox */
 .flex {
@@ -41,6 +81,7 @@
 }
 
 /* Grid */
+
 .grid {
   display: grid;
   gap: var(--grid-gap);
@@ -52,4 +93,119 @@
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* Accordion */
+.accordion {
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+  border-top: var(--border-width) solid var(--color-border);
+}
+
+.accordion-item:first-child {
+  border-top: none;
+}
+
+.accordion-header {
+  padding: var(--spacing-md);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accordion-header:hover {
+  background-color: var(--color-secondary);
+}
+
+.accordion-content {
+  display: none;
+  padding: var(--spacing-md);
+}
+
+.accordion-content a {
+  text-decoration: none;
+}
+
+.accordion-content a:hover {
+  text-decoration: underline;
+}
+
+.accordion-item.open .accordion-content {
+  display: block;
+}
+
+/* Contenedores */
+.container-responsive {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+fieldset .responsive {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+}
+
+.column {
+  width: 48%;
+}
+
+.column textarea {
+  width: 100%;
+}
+
+.column button {
+  margin: 2px 25%;
+}
+
+/* Tarjetas */
+.card {
+  background-color: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+  margin: var(--border-width);
+  box-shadow: var(--shadow-small);
+}
+
+.card-name {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-base);
+  margin: 10px 0;
+}
+
+.card-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: var(--font-size-small);
+  margin: 5px 0;
+  color: var(--color-text-secondary);
+}
+
+.card-code {
+  font-family: monospace;
+  font-size: var(--font-size-small);
+  color: var(--color-text-accent);
+}
+
+.card-link {
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+  text-decoration: none;
+  transition: color 0.3s var(--animation-ease);
+}
+
+.card-index {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
 }

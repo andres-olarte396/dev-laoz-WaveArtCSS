@@ -33,8 +33,8 @@
   /* Texto secundario */
   --color-text-muted: #9ca3af;
   /* Texto desactivado */
-  --color-text-accent: #0b84f5;
-  /* Texto desactivado */
+  --color-text-accent: #04315c;
+  /* Texto destacado */
 
   /* Bordes */
   --color-border: #d1d5db;
@@ -74,6 +74,8 @@
     /* Texto secundario claro */
     --color-text-muted: #6b7280;
     /* Texto desactivado claro */
+    --color-text-accent: #0b84f5;
+    /* Texto destacado */
 
     --color-border: #374151;
     /* Color de bordes oscuros */
