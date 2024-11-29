@@ -19,7 +19,7 @@
 
 /* Margen y espaciado */
 .mt-sm {
-  margin-top: 0.5rem;
+  margin-top: var(--spacing-md);
 }
 
 .mt-lg {
@@ -165,7 +165,7 @@ fieldset .responsive {
 }
 
 .column button {
-  margin: 2px 25%;
+  margin: var(--border-width) var(--border-width);
 }
 
 /* Tarjetas */
@@ -181,7 +181,7 @@ fieldset .responsive {
 .card-name {
   color: var(--color-text-primary);
   font-size: var(--font-size-base);
-  margin: 10px 0;
+  margin: var(--spacing-md) 0;
 }
 
 .card-description {
@@ -208,4 +208,27 @@ fieldset .responsive {
 .card-index {
   font-size: var(--font-size-base);
   color: var(--color-text-muted);
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 var(--spacing-md);
+}
+
+nav ul li a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+main {
+  padding: var(--spacing-md);
+}
+
+section {
+  margin-bottom: calc(var(--spacing-md)*2);
 }
