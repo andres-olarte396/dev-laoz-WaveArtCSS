@@ -2,6 +2,8 @@
 
 **Wave Art CSS** es un proyecto modular diseñado para facilitar la creación de interfaces de usuario modernas, altamente responsivas, accesibles y personalizables. Este proyecto implementa las últimas tendencias en CSS, incluyendo **CSS Grid**, **Flexbox**, **Consultas de Contenedores**, **Temas Oscuros y Claros**, y muchas más herramientas avanzadas.
 
+![Logo](./assets/images/image.png)
+
 ## **Características**
 
 1. **Diseño Modular**:
