@@ -221,8 +221,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--color-text-muted);
+  color: var(--color-text-primary) !important;
   text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--color-text-accent) !important;
 }
 
 main {

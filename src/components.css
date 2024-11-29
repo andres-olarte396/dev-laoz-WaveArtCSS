@@ -79,8 +79,28 @@ input, textarea, select {
 }
 
 input:focus, textarea:focus, select:focus {
-    border-color: var(--color-primary);
+    border: var(--border-width) solid var(--color-accent);
     outline: none;
+}
+
+input:hover, textarea:hover, select:hover {
+    border: var(--border-width) solid var(--color-secondary);
+    outline: none;
+}
+
+input:disabled, textarea:disabled, select:disabled {
+    background-color: var(--color-background-alt);
+    cursor: not-allowed;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    margin: 0 var(--spacing-xs);
+}
+
+input[type="search"] {
+    max-width: 300px;
+    min-width: 150px;
 }
 
 label {
