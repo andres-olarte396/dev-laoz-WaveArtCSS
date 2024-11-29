@@ -1,5 +1,8 @@
 /* --- COMPONENTS.CSS --- */
 
+/* Importar BASE */
+@import url('base.css');
+
 /* Estilos responsivos */
 @media (max-width: 768px) {
     header {

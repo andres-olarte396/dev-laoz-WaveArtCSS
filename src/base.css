@@ -1,5 +1,8 @@
 /* --- BASE.CSS --- */
 
+/* Importar Variables */
+@import url('theme.css');
+
 /* Estilos generales */
 * {
   margin: 0;
