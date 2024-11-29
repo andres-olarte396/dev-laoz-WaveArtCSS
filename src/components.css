@@ -74,7 +74,7 @@ input, textarea, select {
     border-radius: var(--border-radius);
     background-color: var(--color-surface);
     color: var(--color-text-primary);
-    width: 100%;
+    width: 98%;
     transition: border-color 0.3s var(--animation-ease), background-color 0.3s var(--animation-ease);
 }
 

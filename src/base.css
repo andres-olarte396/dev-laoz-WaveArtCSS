@@ -1,7 +1,6 @@
 /* --- BASE.CSS --- */
 
 /* Estilos generales */
-/* --- Reseteo y Normalización --- */
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +16,17 @@ body {
   transition: background-color 0.3s var(--animation-ease), color 0.3s var(--animation-ease);
 }
 
+/* --- Modo Oscuro --- */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+
+  a {
+    color: var(--color-secondary);
+  }
+}
 
 /* Header */
 header {
@@ -124,7 +134,7 @@ button {
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--border-radius);
   background-color: var(--color-primary);
-  color: #fff;
+  color: var(--color-text-primary);
   cursor: pointer;
   transition: background-color 0.3s var(--animation-ease), transform 0.2s var(--animation-ease);
 }
@@ -190,17 +200,6 @@ ul, ol {
 
 li {
   margin-bottom: var(--spacing-xs);
-}
-
-/* --- Modo Oscuro --- */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--color-background);
-    color: var(--color-text-primary);
-  }
-  a {
-    color: var(--color-secondary);
-  }
 }
 
 /* --- Animaciones --- */
