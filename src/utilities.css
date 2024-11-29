@@ -1,5 +1,8 @@
 /* --- UTILITIES.CSS --- */
 
+/* Importar Variables */
+@import url('theme.css');
+
 /* Espaciado */
 .m-0 {
   margin: 0;

@@ -1,5 +1,8 @@
 /* --- ANIMATIONS.CSS --- */
 
+/* Importar Variables */
+@import url('theme.css');
+
 /* Fade In */
 @keyframes fadeIn {
   from {

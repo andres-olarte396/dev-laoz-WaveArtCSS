@@ -82,20 +82,6 @@ a:hover {
   color: var(--color-secondary);
 }
 
-/* --- Contenedores --- */
-.container {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0 var(--spacing-md);
-}
-
-fieldset {
-  border: var(--border-width) solid var(--color-border);
-  border-radius: var(--border-radius);
-  padding: var(--spacing-md);
-  margin-bottom: var(--spacing-md);
-}
-
 /* --- Encabezados --- */
 h1, h2, h3, h4, h5, h6 {
   line-height: var(--line-height-heading);
@@ -109,7 +95,23 @@ h1 {
 }
 
 h2 {
+  font-size: calc(var(--font-size-heading) - 4px);
+}
+
+h3 {
   font-size: calc(var(--font-size-heading) - 8px);
+}
+
+h4 {
+  font-size: calc(var(--font-size-heading) - 10px);
+}
+
+h5 {
+  font-size: calc(var(--font-size-heading) - 12px);
+}
+
+h6 {
+  font-size: calc(var(--font-size-heading) - 14px);
 }
 
 /* --- Texto --- */
