@@ -43,6 +43,80 @@
   /* Sombras */
   --box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   /* Sombra predeterminada */
+
+  /* --- Tipografía --- */
+  --font-family-primary: 'Inter', sans-serif;
+  /* Fuente principal */
+  --font-family-secondary: 'Roboto', sans-serif;
+
+  /* Fuente secundaria */
+  --font-size-xxs: 10px;
+  /* Fuente secundaria */
+  --font-size-xs: 12px;
+  /* Fuente secundaria */
+  --font-size-small: 14px;
+  /* Texto pequeño */
+  --font-size-base: 16px;
+  /* Texto base */
+  --font-size-large: 18px;
+  /* Texto grande */
+  --font-size-title: 24px;
+  /* Títulos */
+  --font-size-heading: 32px;
+  /* Encabezados principales */
+  --line-height-base: 1.5;
+  /* Altura de línea predeterminada */
+  --line-height-heading: 1.2;
+  /* Altura de línea para títulos */
+
+  /* --- Espaciado --- */
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  /* --- Bordes y Radios --- */
+  --border-width: 1px;
+  /* Ancho de bordes predeterminado */
+  --border-radius: 8px;
+  /* Bordes redondeados */
+  --border-radius-sm: 4px;
+  /* Bordes redondeados pequeños */
+  --border-radius-lg: 16px;
+  /* Bordes redondeados grandes */
+
+  /* --- Unidades Responsivas --- */
+  --viewport-width: 100vw;
+  --viewport-height: 100vh;
+  /* Nuevas Unidades (CSS Logical Units) */
+  --dynamic-margin: env(safe-area-inset-left);
+  --dynamic-padding: env(safe-area-inset-right);
+
+  /* --- Animaciones --- */
+  --animation-duration: 0.3s;
+  /* Duración por defecto */
+  --animation-ease: ease-in-out;
+  /* Curva de animación predeterminada */
+
+  /* Ejemplo de Animación Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* --- Diseño Modular y Personalización --- */
+  --grid-gap: 16px;
+  /* Espaciado entre elementos de un grid */
+  --container-max-width: 1200px;
+  /* Ancho máximo del contenedor */
 }
 
 /* Tema Oscuro */
@@ -83,90 +157,4 @@
     --box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     /* Sombra en modo oscuro */
   }
-}
-
-/* --- Tipografía --- */
-:root {
-  --font-family-primary: 'Inter', sans-serif;
-  /* Fuente principal */
-  --font-family-secondary: 'Roboto', sans-serif;
-
-  /* Fuente secundaria */
-  --font-size-xxs: 10px;
-  /* Fuente secundaria */
-  --font-size-xs: 12px;
-  /* Fuente secundaria */
-  --font-size-small: 14px;
-  /* Texto pequeño */
-  --font-size-base: 16px;
-  /* Texto base */
-  --font-size-large: 18px;
-  /* Texto grande */
-  --font-size-title: 24px;
-  /* Títulos */
-  --font-size-heading: 32px;
-  /* Encabezados principales */
-  --line-height-base: 1.5;
-  /* Altura de línea predeterminada */
-  --line-height-heading: 1.2;
-  /* Altura de línea para títulos */
-}
-
-/* --- Espaciado --- */
-:root {
-  --spacing-xxs: 4px;
-  --spacing-xs: 8px;
-  --spacing-sm: 12px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
-  --spacing-xxl: 48px;
-}
-
-/* --- Bordes y Radios --- */
-:root {
-  --border-width: 1px;
-  /* Ancho de bordes predeterminado */
-  --border-radius: 8px;
-  /* Bordes redondeados */
-  --border-radius-sm: 4px;
-  /* Bordes redondeados pequeños */
-  --border-radius-lg: 16px;
-  /* Bordes redondeados grandes */
-}
-
-/* --- Unidades Responsivas --- */
-:root {
-  --viewport-width: 100vw;
-  --viewport-height: 100vh;
-  /* Nuevas Unidades (CSS Logical Units) */
-  --dynamic-margin: env(safe-area-inset-left);
-  --dynamic-padding: env(safe-area-inset-right);
-}
-
-/* --- Animaciones --- */
-:root {
-  --animation-duration: 0.3s;
-  /* Duración por defecto */
-  --animation-ease: ease-in-out;
-  /* Curva de animación predeterminada */
-}
-
-/* Ejemplo de Animación Keyframes */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-/* --- Diseño Modular y Personalización --- */
-:root {
-  --grid-gap: 16px;
-  /* Espaciado entre elementos de un grid */
-  --container-max-width: 1200px;
-  /* Ancho máximo del contenedor */
 }

@@ -88,7 +88,12 @@ a:hover {
 }
 
 /* --- Encabezados --- */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: var(--line-height-heading);
   color: var(--color-text-primary);
   margin-bottom: var(--spacing-md);
@@ -160,7 +165,9 @@ button:disabled {
 }
 
 /* --- Formularios --- */
-input, textarea, select {
+input,
+textarea,
+select {
   font-family: var(--font-family-secondary);
   font-size: var(--font-size-base);
   padding: var(--spacing-xs);
@@ -172,7 +179,9 @@ input, textarea, select {
   transition: border-color 0.3s var(--animation-ease), background-color 0.3s var(--animation-ease);
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
   border-color: var(--color-primary);
   outline: none;
 }
@@ -204,7 +213,8 @@ input:focus, textarea:focus, select:focus {
 }
 
 /* --- Listas --- */
-ul, ol {
+ul,
+ol {
   padding-left: var(--spacing-lg);
 }
 
