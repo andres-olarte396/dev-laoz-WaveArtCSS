@@ -32,11 +32,9 @@
 /* Contenedor principal del slider */
 .slider {
   position: relative;
-  width: 80%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Contenedor de las diapositivas */
@@ -93,7 +91,7 @@
 /* Indicadores (puntos) */
 .indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;

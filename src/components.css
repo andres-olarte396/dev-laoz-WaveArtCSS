@@ -59,7 +59,7 @@ button {
 
 button:hover {
   background-color: var(--color-secondary);
-  transform: scale(0.5);
+  transform: scale(0.9);
 }
 
 button:disabled {
@@ -68,7 +68,7 @@ button:disabled {
 }
 
 button:active {
-  transform: scale(0.2);
+  transform: scale(1.1);
 }
 
 button:focus {
