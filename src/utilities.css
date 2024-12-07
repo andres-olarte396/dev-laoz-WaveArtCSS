@@ -281,10 +281,11 @@ section {
   transform: scale(1.05);
 }
 
-.emoji-card span {
-  font-size: 2rem;
+.emoji-card > span {
+  font-size: 1rem;
   display: block;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .emoji-card p {

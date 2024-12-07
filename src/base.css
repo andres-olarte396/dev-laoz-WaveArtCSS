@@ -47,6 +47,14 @@ header {
   justify-content: space-between;
 }
 
+header > h1 {
+  font-size: var(--font-size-heading);
+  font-weight: bold;
+  color: var(--color-text-) !important;
+  margin-bottom: 0%;
+  margin-left: var(--spacing-md);
+}
+
 /* Main */
 main {
   margin-top: 10vh;

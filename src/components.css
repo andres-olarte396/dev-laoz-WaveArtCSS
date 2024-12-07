@@ -222,7 +222,7 @@ form label {
   color: var(--color-text-primary);
 }
 
-form span {
+form > span {
   font-size: var(--spacing-md);
   color: var(--color-text-muted);
 }
