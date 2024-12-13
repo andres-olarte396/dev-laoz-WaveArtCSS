@@ -224,29 +224,6 @@ fieldset .responsive {
   color: var(--color-text-muted);
 }
 
-/* Menu */
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 var(--spacing-md);
-}
-
-nav ul li a {
-  color: var(--color-text-primary) !important;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: var(--color-text-accent) !important;
-}
-
-main {
-  padding: var(--spacing-md);
-}
-
 #emoji-container {
   display: flex;
   flex-wrap: wrap;

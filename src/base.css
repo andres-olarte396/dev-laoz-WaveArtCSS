@@ -1,7 +1,7 @@
 /* --- BASE.CSS --- */
 
 /* Importar Variables */
-@import url('theme.css');
+@import url("theme.css");
 
 /* Estilos generales */
 * {
@@ -16,7 +16,8 @@ body {
   line-height: var(--line-height-base);
   color: var(--color-text-primary);
   background-color: var(--color-background);
-  transition: background-color 0.3s var(--animation-ease), color 0.3s var(--animation-ease);
+  transition: background-color 0.3s var(--animation-ease),
+    color 0.3s var(--animation-ease);
 }
 
 /* --- Modo Oscuro --- */
@@ -46,7 +47,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
 
 header img {
   width: 100px;
@@ -85,8 +85,8 @@ header nav ul li {
   }
 }
 
-
-hr, br {
+hr,
+br {
   border: 0;
   border-top: 1px solid var(--color-border);
   margin: var(--spacing-md) 0;
@@ -101,7 +101,7 @@ pre {
   margin: var(--spacing-md);
 }
 
-header > h1 {
+header>h1 {
   font-size: var(--font-size-heading);
   font-weight: bold;
   color: var(--color-text-) !important;
@@ -213,7 +213,8 @@ button {
   background-color: var(--color-primary);
   color: var(--color-text-primary);
   cursor: pointer;
-  transition: background-color 0.3s var(--animation-ease), transform 0.2s var(--animation-ease);
+  transition: background-color 0.3s var(--animation-ease),
+    transform 0.2s var(--animation-ease);
 }
 
 button:hover {
@@ -238,7 +239,8 @@ select {
   background-color: var(--color-surface);
   color: var(--color-text-primary);
   width: 100%;
-  transition: border-color 0.3s var(--animation-ease), background-color 0.3s var(--animation-ease);
+  transition: border-color 0.3s var(--animation-ease),
+    background-color 0.3s var(--animation-ease);
 }
 
 input:focus,

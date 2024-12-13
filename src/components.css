@@ -303,14 +303,6 @@ div {
   margin-bottom: var(--spacing-md);
 }
 
-/* <section> */
-section {
-  padding: var(--spacing-xs) var(--spacing-md);
-  margin-bottom: var(--spacing-md);
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 /* <article> */
 article {
     padding: var(--spacing-xs) var(--spacing-md);
@@ -329,6 +321,30 @@ aside {
 /* Contenedor para el input */
 .input-section {
   margin-bottom: 15px !important;
+}
+
+
+/* Menu */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 var(--spacing-md);
+}
+
+nav ul li a {
+  color: var(--color-text-primary) !important;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--color-text-accent) !important;
+}
+
+main {
+  padding: var(--spacing-md);
 }
 
 /* --- THEME.CSS --- */
