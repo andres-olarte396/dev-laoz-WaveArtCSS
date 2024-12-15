@@ -6,13 +6,14 @@ Este archivo te ayudará a entender cómo utilizar los diferentes módulos de **
 
 El archivo `base.css` contiene estilos generales para la normalización y la base de todos los elementos HTML. Asegúrate de incluir este archivo en tu proyecto.
 
-### Ejemplo:
+### Ejemplo
 
 ```html
 <link rel="stylesheet" href="src/base.css">
 ```
 
 **Base incluye:**
+
 - Estilos predeterminados para la tipografía y los márgenes.
 - Normalización de los estilos de los navegadores.
 - Estilos base para todos los controles de formulario.
@@ -38,6 +39,7 @@ El archivo `components.css` contiene estilos personalizados para controles de fo
 ```
 
 **Controles soportados:**
+
 - Inputs (`text`, `email`, `password`, `number`).
 - Botones.
 - Selectores.
@@ -49,7 +51,7 @@ El archivo `components.css` contiene estilos personalizados para controles de fo
 
 En `animations.css`, se definen animaciones avanzadas como transiciones suaves y animaciones basadas en el desplazamiento (scroll-driven animations).
 
-### Ejemplo de Animación de Hover:
+### Ejemplo de Animación de Hover
 
 ```css
 button:hover {
@@ -69,7 +71,7 @@ button:hover {
 
 El archivo `utilities.css` incluye clases de utilidad que puedes usar para ajustar espaciados, alineación y diseño con Flexbox o Grid.
 
-### Ejemplo de Utilidades de Espaciado:
+### Ejemplo de Utilidades de Espaciado
 
 ```html
 <div class="m-2 p-3">
@@ -78,6 +80,7 @@ El archivo `utilities.css` incluye clases de utilidad que puedes usar para ajust
 ```
 
 **Utilidades comunes:**
+
 - Espaciado (`m-1`, `m-2`, `p-1`, etc.).
 - Flexbox helpers (`.flex-center`, `.flex-between`).
 - Grid helpers (`.grid-2`, `.grid-3`).
@@ -91,5 +94,6 @@ Si deseas personalizar aún más los estilos, edita las variables de `theme.css`
 ---
 
 **Consejos**:
+
 - Usa los archivos `components.css` y `utilities.css` para mantener tu HTML limpio y reutilizable.
 - Aprovecha las animaciones para mejorar la interacción del usuario, pero no sobrecargues la interfaz.

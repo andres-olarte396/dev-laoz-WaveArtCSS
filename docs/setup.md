@@ -36,13 +36,19 @@ Una vez descargado el repositorio, asegúrate de incluir los siguientes archivos
 Organiza tu proyecto para que los archivos CSS sean accesibles y se encuentren correctamente estructurados. Por ejemplo:
 
 ```plaintext
-├── 📂 src/
-│   ├── 📝 base.css          # Estilos base
-│   ├── 📝 theme.css         # Variables de temas
-│   ├── 📝 components.css    # Estilos de controles
-│   ├── 📝 animations.css    # Animaciones avanzadas
-│   └── 📝 utilities.css     # Clases utilitarias para spacing, helpers, etc.
-├── 📄 index.html
+├── 📂 css/
+│   ├── 📝 base.css
+│   ├── 📂 components/
+│   │   ├── 📝 button.css
+│   │   ├── 📝 form.css
+│   │   └── 📝 card.css
+│   ├── 📂 utilities/
+│   │   ├── 📝 spacing.css
+│   │   ├── 📝 text.css
+│   │   └── 📝 colors.css
+│   ├── 📝 animations.css
+│   └── 📝 theme.css
+└── 📄 index.html
 ```
 
 ## Paso 3: Verificación
