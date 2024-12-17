@@ -2,6 +2,9 @@
 
 /* Importar Variables */
 @import url("theme.css");
+/* Importar Utilidades */
+@import url("base/*.css");
+
 
 /* Estilos generales */
 * {
@@ -75,7 +78,6 @@ header nav ul li {
   }
 
   header h1 {
-    font-size: 1.5rem;
     margin-left: var(--spacing-sm);
   }
 

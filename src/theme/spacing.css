@@ -1,0 +1,27 @@
+:root {
+    /* --- Espaciado --- */
+    --spacing-xxs: 4px;
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+  
+    /* --- Bordes y Radios --- */
+    --border-width: 1px;
+    /* Ancho de bordes predeterminado */
+    --border-radius: 8px;
+    /* Bordes redondeados */
+    --border-radius-sm: 4px;
+    /* Bordes redondeados pequeños */
+    --border-radius-lg: 16px;
+    /* Bordes redondeados grandes */
+  
+    /* --- Unidades Responsivas --- */
+    --viewport-width: 100vw;
+    --viewport-height: 100vh;
+    /* Nuevas Unidades (CSS Logical Units) */
+    --dynamic-margin: env(safe-area-inset-left);
+    --dynamic-padding: env(safe-area-inset-right);
+}
