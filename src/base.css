@@ -24,18 +24,6 @@ body {
     color 0.3s var(--animation-ease);
 }
 
-/* --- Modo Oscuro --- */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--color-background);
-    color: var(--color-text-primary);
-  }
-
-  a {
-    color: var(--color-secondary);
-  }
-}
-
 /* Header */
 header {
   background-color: var(--color-primary);
