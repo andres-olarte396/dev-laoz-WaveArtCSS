@@ -69,22 +69,7 @@
   flex-direction: column !important;
 }
 
-/* Flexbox */
-.flex {
-  display: flex;
-}
-
-.flex-center {
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
 /* Grid */
-
 .grid {
   display: grid;
   gap: var(--grid-gap);
@@ -198,26 +183,12 @@ fieldset .responsive {
   display: block;
 }
 
-
- /* Contenedor para el input */
- .input-container {
-  position: relative;
-  display: inline-block;
+/* --- Animaciones --- */
+.fade-in {
+  animation: fadeIn var(--animation-duration) var(--animation-ease);
 }
 
-/* Estilo para el input */
-.input-container input {
-  padding-left: 2em; /* Deja espacio para el emoji */
-  font-size: 16px;
-}
-
-/* Emoji añadido con ::before */
-.input-container::before {
-  content: "🔍"; /* Emoji */
-  position: absolute;
-  left: 0.5em; /* Ajusta la posición */
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 18px;
-  pointer-events: none; /* Evita que interfiera con el clic */
+.border {
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
 }

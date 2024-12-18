@@ -1,0 +1,25 @@
+/* Importar Variables */
+@import url("theme.css");
+
+/* --- Listas --- */
+ul,
+ol {
+  padding-left: var(--spacing-lg);
+}
+
+li {
+  margin-bottom: var(--spacing-xs);
+}
+
+dl {
+  display: grid;
+  gap: var(--spacing-xs);
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: var(--spacing-md);
+}
