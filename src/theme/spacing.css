@@ -1,12 +1,19 @@
 :root {
     /* --- Espaciado --- */
     --spacing-xxs: 4px;
+    /* Espaciado extra extra pequeño */
     --spacing-xs: 8px;
+    /* Espaciado extra pequeño */
     --spacing-sm: 12px;
+    /* Espaciado pequeño */
     --spacing-md: 16px;
+    /* Espaciado mediano */
     --spacing-lg: 24px;
+    /* Espaciado grande */
     --spacing-xl: 32px;
+    /* Espaciado extra grande */
     --spacing-xxl: 48px;
+    /* Espaciado extra extra grande */
   
     /* --- Bordes y Radios --- */
     --border-width: 1px;
@@ -20,7 +27,10 @@
   
     /* --- Unidades Responsivas --- */
     --viewport-width: 100vw;
+    /* Ancho de la ventana */
     --viewport-height: 100vh;
+    /* Alto de la ventana */
+    
     /* Nuevas Unidades (CSS Logical Units) */
     --dynamic-margin: env(safe-area-inset-left);
     --dynamic-padding: env(safe-area-inset-right);

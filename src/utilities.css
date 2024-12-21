@@ -83,12 +83,47 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* Contenedores */
+/* --- Contenedores --- */
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  border-radius: 8px;
+}
+
 .container-responsive {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Contenedor para el input */
+.input-section {
+  margin-bottom: var(--spacing-md) !important;
+}
+
+/* Contenedor para el input */
+.input-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: var(--spacing-md) !important;
+}
+
+/* Estilo para el input */
+.input-container input {
+  padding-left: var(--padding-md);
+  font-size: var(--font-size-base);
+}
+
+/* Emoji añadido con ::before */
+.input-container::before {
+  position: absolute;
+  left: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: var(--font-size-base);
+  pointer-events: none;
 }
 
 fieldset .responsive {
@@ -111,53 +146,6 @@ fieldset .responsive {
 
 .column button {
   margin: var(--border-width) var(--border-width);
-}
-
-#emoji-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.emoji-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 20px;
-}
-.emoji-card div {
-  padding: 0% !important;
-  margin-bottom: 0 !important;
-}
-
-.emoji-card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  width: 150px;
-  transition: transform 0.3s ease;
-}
-
-.emoji-card:hover {
-  transform: scale(1.05);
-}
-
-.emoji-card > span {
-  font-size: 1rem;
-  display: block;
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-
-.emoji-card p {
-  margin: 0;
-  font-size: 1rem;
-}
-
-.emoji {
-  font-size: 60px;
-  margin-bottom: 10px;
 }
 
 /* Contenedor de búsqueda */

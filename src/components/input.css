@@ -55,11 +55,8 @@ input[type="color"] {
   height: 20px;
   border: none;
   cursor: pointer;
-
-  /* Hace que el selector muestre el color seleccionado */
   background-color: transparent;
   -webkit-appearance: none;
-  /* Elimina el estilo por defecto en navegadores WebKit */
   appearance: none;
   padding: 0 !important;
   margin: 0 !important;
@@ -67,8 +64,4 @@ input[type="color"] {
 
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
-}
-
-input[type="color"]::-webkit-color-swatch {
-  border: none;
 }

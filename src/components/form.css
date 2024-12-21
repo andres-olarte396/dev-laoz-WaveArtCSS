@@ -59,30 +59,3 @@ form div span {
   font-size: var(--font-size-small);
   color: var(--color-text-muted);
 }
-
-/* Contenedor para el input */
-.input-container {
-  position: relative;
-  display: inline-block;
-}
-
-/* Estilo para el input */
-.input-container input {
-  padding-left: 2em;
-  /* Deja espacio para el emoji */
-  font-size: 16px;
-}
-
-/* Emoji añadido con ::before */
-.input-container::before {
-  content: "🔍";
-  /* Emoji */
-  position: absolute;
-  left: 0.5em;
-  /* Ajusta la posición */
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 18px;
-  pointer-events: none;
-  /* Evita que interfiera con el clic */
-}

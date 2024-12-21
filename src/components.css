@@ -13,13 +13,6 @@
 @import url("components/table.css");
 
 
-/* --- Contenedores --- */
-.container {
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 0 var(--spacing-md);
-  border-radius: 8px;
-}
 
 /* <div> */
 div {
@@ -29,8 +22,8 @@ div {
 
 /* <article> */
 article {
-    padding: var(--spacing-xs) var(--spacing-md);
-    margin-bottom: var(--spacing-md);
+  padding: var(--spacing-xs) var(--spacing-md);
+  margin-bottom: var(--spacing-md);
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -40,11 +33,6 @@ aside {
   padding: var(--spacing-xs) var(--spacing-md);
   margin-bottom: var(--spacing-md);
   font-size: 0.9em;
-}
-
-/* Contenedor para el input */
-.input-section {
-  margin-bottom: 15px !important;
 }
 
 main {

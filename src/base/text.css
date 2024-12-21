@@ -1,0 +1,74 @@
+@import url("theme.css");
+
+/* --- Texto --- */
+article {
+    margin-bottom: var(--spacing-md);
+  }
+  
+  code {
+    background-color: var(--color-surface);
+    color: var(--color-text-primary);
+    padding: 0.2rem;
+    border-radius: var(--border-radius);
+  }
+  
+  br,
+  hr {
+    border: 0;
+    border-top: 1px solid var(--color-border);
+    margin: var(--spacing-md) 0;
+  }
+  
+  label {
+    font-size: var(--font-size-base);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  p {
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-secondary);
+  }
+  
+  pre {
+    background-color: var(--color-surface);
+    color: var(--color-text-primary);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    overflow-x: auto;
+    margin: var(--spacing-md);
+  }
+  
+  span {
+    font-size: var(--font-size-base);
+    color: var(--color-text-muted);
+  }
+  
+  small {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
+  }
+  
+  /* menu */
+  nav {
+    text-align: center;
+  }
+  
+  /* --- Enlaces --- */
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.3s var(--animation-ease);
+  }
+  
+  a:active {
+    color: var(--color-accent);
+  }
+  
+  a:hover {
+    color: var(--color-secondary);
+  }
+  
+  a:visited {
+    color: var(--color-tertiary);
+  }
