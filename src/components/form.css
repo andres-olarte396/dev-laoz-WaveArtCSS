@@ -37,7 +37,7 @@ form input,
 form select {
   margin-top: 0 !important;
   margin-bottom: var(--spacing-md);
-  width: 98%;
+  max-width: 98%;
   transition: border-color 0.3s var(--animation-ease),
     background-color 0.3s var(--animation-ease);
 }

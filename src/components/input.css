@@ -13,7 +13,7 @@ select {
   border-radius: var(--border-radius);
   background-color: var(--color-surface);
   color: var(--color-text-primary);
-  width: 98%;
+  max-width: 98%;
   transition: border-color 0.3s var(--animation-ease),
     background-color 0.3s var(--animation-ease);
 }
@@ -51,7 +51,6 @@ input[type="search"] {
 }
 
 input[type="color"] {
-  width: 98%;
   height: 20px;
   border: none;
   cursor: pointer;

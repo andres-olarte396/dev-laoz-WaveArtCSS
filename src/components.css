@@ -20,6 +20,14 @@ div {
   margin-bottom: var(--spacing-md);
 }
 
+div .whitout-padding {
+  padding: 0;
+}
+
+div .whitout-margin {
+  margin: 0;
+}
+
 /* <article> */
 article {
   padding: var(--spacing-xs) var(--spacing-md);
@@ -37,6 +45,30 @@ aside {
 
 main {
   padding: var(--spacing-md);
+}
+
+
+input[class*="username"] {
+  padding: var(--spacing-xs);
+  /* en la izquierda del input de nombre de usuario hay un icono de usuario */
+  background-image: url("../assets/icons/user.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+}
+
+input[class*="password"] {
+  padding: var(--spacing-xs);
+  /* en la izquierda del input de contraseña hay un icono de llave */
+  background-image: url("../assets/icons/password.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  /* en la derecha del input de contraseña hay un icono de ojo */
+  background-image: url("../assets/icons/eye.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 20px;
 }
 
 /* --- THEME.CSS --- */
