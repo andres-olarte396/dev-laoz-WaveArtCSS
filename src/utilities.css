@@ -2,8 +2,8 @@
 
 /* Importar Variables */
 @import url('theme.css');
-@import url('utilities/emoji.css');
-@import url('utilities/messaging.css');
+@import url('utils/emoji.css');
+@import url('utils/messaging.css');
 
 /* Espaciado */
 .m-0 {

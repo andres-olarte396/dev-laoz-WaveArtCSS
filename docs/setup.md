@@ -8,7 +8,7 @@ Este archivo explica cómo configurar e integrar **Wave Art CSS** en tu proyecto
 1. **Un proyecto HTML/CSS/JS** donde puedas agregar los estilos de Wave Art CSS.
 2. **Un servidor local** o un entorno de desarrollo donde puedas probar los estilos (opcional, pero recomendado).
 
-## Paso 1: Clonar el Repositorio
+## Paso 1. Clonar el Repositorio
 
 Clona el repositorio de Wave Art CSS en tu máquina local:
 
@@ -42,7 +42,7 @@ Organiza tu proyecto para que los archivos CSS sean accesibles y se encuentren c
 │   │   ├── 📝 button.css
 │   │   ├── 📝 form.css
 │   │   └── 📝 card.css
-│   ├── 📂 utilities/
+│   ├── 📂 utils/
 │   │   ├── 📝 spacing.css
 │   │   ├── 📝 text.css
 │   │   └── 📝 colors.css
