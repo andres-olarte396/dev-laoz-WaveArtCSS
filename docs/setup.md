@@ -42,7 +42,7 @@ Organiza tu proyecto para que los archivos CSS sean accesibles y se encuentren c
 │   │   ├── 📝 button.css
 │   │   ├── 📝 form.css
 │   │   └── 📝 card.css
-│   ├── 📂 utilities/
+│   ├── 📂 utils/
 │   │   ├── 📝 spacing.css
 │   │   ├── 📝 text.css
 │   │   └── 📝 colors.css
